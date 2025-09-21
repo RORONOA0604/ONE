@@ -10,40 +10,15 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
 AI-Powered E-Learning Platform
 This project is a blueprint for a modern e-learning platform that uses AI to provide personalized course recommendations. It's built with a React frontend and a FastAPI backend.
 
 Ideal Project Structure
 For a real-world application, you would separate your frontend and backend into two distinct folders. The code I've provided in the other files can be used as the basis for this structure.
 
-/ai-elearning-platform
-|
-├── backend/
-│   ├── app/
-│   │   ├── __init__.py
-│   │   ├── main.py           # Core application logic, middleware, etc.
-│   │   ├── dependencies.py   # Reusable dependencies (e.g., get_current_user)
-│   │   ├── auth.py           # Authentication logic (hashing, JWT)
-│   │   ├── crud.py           # Create, Read, Update, Delete operations
-│   │   ├── models.py         # Pydantic models for data validation
-│   │   └── recommender.py    # AI recommendation logic
-│   ├── db.json               # JSON file acting as the database
-│   └── requirements.txt      # Python dependencies
-│
-└── frontend/
-    ├── public/
-    │   ├── index.html
-    │   └── ...
-    ├── src/
-    │   ├── components/       # Reusable UI components (CourseCard, Navbar, etc.)
-    │   ├── pages/            # Page components (Dashboard, Login, CourseDetails)
-    │   ├── services/         # API call functions (api.js)
-    │   ├── hooks/            # Custom React hooks (e.g., useAuth)
-    │   ├── context/          # State management (e.g., AuthContext)
-    │   ├── App.jsx           # Main application component and routing
-    │   └── index.js          # Entry point for the React app
-    ├── .env                  # Environment variables (e.g., API_URL)
-    └── package.json          # Frontend dependencies
+        
 
 How to Run This Project
 Backend (FastAPI)
