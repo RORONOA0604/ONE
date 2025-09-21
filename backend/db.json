@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "testuser",
+      "email": "test@example.com",
+      "hashed_password": "$2b$12$EixZaYVK1e9p2L2m6DFaC.e/b5nE9.MAcgBv20i5oR.zTwD5N3P2i",
+      "enrolled_courses": [
+        101,
+        103
+      ]
+    },
+    {
+      "id": 2,
+      "username": "anotheruser",
+      "email": "another@example.com",
+      "hashed_password": "$2b$12$EixZaYVK1e9p2L2m6DFaC.e/b5nE9.MAcgBv20i5oR.zTwD5N3P2i",
+      "enrolled_courses": [
+        105
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": 101,
+      "title": "Introduction to Python",
+      "category": "Programming",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": 102,
+      "title": "Advanced Python",
+      "category": "Programming",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": 103,
+      "title": "Data Science with Pandas",
+      "category": "Data Science",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": 104,
+      "title": "Machine Learning Fundamentals",
+      "category": "Data Science",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": 105,
+      "title": "Web Development with React",
+      "category": "Web Development",
+      "difficulty": "Beginner"
+    },
+     {
+      "id": 106,
+      "title": "Styling with Tailwind CSS",
+      "category": "Web Development",
+      "difficulty": "Beginner"
+    }
+  ]
+}
